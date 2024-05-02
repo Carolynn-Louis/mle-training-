@@ -204,6 +204,7 @@ X_test_prepared = X_test_prepared.join(
     pd.get_dummies(X_test_cat, drop_first=True)
     )
 
+
 final_predictions = final_model.predict(X_test_prepared)
 final_mse = mean_squared_error(y_test, final_predictions)
 final_rmse = np.sqrt(final_mse)
