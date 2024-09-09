@@ -30,7 +30,7 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "house_price_predictor_carolyn"
+name = "house_price_predictor"
 version = "0.0.1"
 description = "Predict house price"
 readme = "README.md"
