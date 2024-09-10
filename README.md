@@ -15,5 +15,16 @@ The following techniques have been used:
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
 ## To excute the script
-- activate the conda environment (conda activate mle-dev)
-- python nonstandardcode.py
+
+## Instructions to Execute the Script
+
+To run the `main.py` script for predicting median housing values using different machine learning models, follow the steps below:
+
+### Step 1: Create and Activate a Conda Environment:
+- conda env create -f env.yml
+- conda activate mle-dev
+- Make sure you're in the project root directory where main.py is located, then run
+- python main.py
+
+
+
