@@ -1,3 +1,21 @@
+Metadata-Version: 2.1
+Name: house_price_predictor_carolyn
+Version: 0.0.1
+Summary: A Python package for predicting house prices.
+Author-email: Carolyn Louis <carolyn.louis@tigeranalytics.com>
+License: MIT
+Keywords: machine learning,data science,house prices
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn==1.5.1
+Requires-Dist: pyyaml
+
 # Median housing value prediction
 
 The housing data can be downloaded from https://raw.githubusercontent.com/ageron/handson-ml/master/. The script has codes to download the data. We have modelled the median house value on given housing data. 
@@ -15,16 +33,5 @@ The following techniques have been used:
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
 ## To excute the script
-
-## Instructions to Execute the Script
-
-To run the `main.py` script for predicting median housing values using different machine learning models, follow the steps below:
-
-### Step 1: Create and Activate a Conda Environment:
-- conda env create -f env.yml
-- conda activate mle-dev
-- Make sure you're in the project root directory where main.py is located, then run
-- python main.py
-
-
-
+- activate the conda environment (conda activate mle-dev)
+- python nonstandardcode.py
